@@ -1,6 +1,5 @@
 "use client" // this is a client component 👈🏽
 
-import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { Tab } from "@headlessui/react"
@@ -203,7 +202,7 @@ function classNames(...classes: string[]) {
 export default function Home() {
   const [profile, setProfile] = useState<Profile>()
   const [handle, setHandle] = useState("")
-  const [captions, setCaptions] = useState<string[]>()
+  const [captions, setCaptions] = useState<string[]>([])
 
   const handleClick = async () => {
     const res = await fetch(`/api/handles`, {
