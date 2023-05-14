@@ -34,18 +34,23 @@ export async function POST(request: Request) {
       {
         role: "system",
         content:
-          "You are Caption writer who can craft beautiful captions for photos. You are given a description of a photo and you have to write a caption for it that are catchy and can be used on social media. Generate 5-6 captions for the given photo and format of the output should each caption on a new line.",
+          "You are Caption writer who can craft beautiful captions for photos. You are given a description of a photo and the current caption of the photo you have to write a caption for it that are catchy and can be used on social media. Generate 5-6 captions for the given photo and format of the output should each caption on a new line.",
       },
       {
         role: "user",
-        content: JSON.stringify(output),
+        content: `image description: ${JSON.stringify(
+          output
+        )}\ncurrent caption: ${photo.description}`,
       },
     ],
   })
 
   const { choices } = response.data
   console.log(choices[0].message)
-  const captions = choices[0].message?.content.split("\n")
+
+  const captions = choices[0].message?.content
+    .split("\n")
+    .map((caption) => caption.split(".")[1].replace(/^"|"$/g, ""))
 
   return NextResponse.json({ captions })
 }
