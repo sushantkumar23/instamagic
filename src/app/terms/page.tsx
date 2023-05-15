@@ -108,7 +108,7 @@ export default function Terms() {
         <div className="mx-auto text-lg max-w-prose">
           <h1>
             <span className="block text-base font-semibold tracking-wide text-center text-indigo-600 uppercase">
-              Thoughts
+              InstaMagic
             </span>
             <span className="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-gray-900 sm:text-4xl">
               Terms of Service
