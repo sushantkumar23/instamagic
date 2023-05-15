@@ -231,9 +231,9 @@ export default function Home() {
         >
           <div className="flex lg:flex-1">
             <a href={"/"} className="-m-1.5 p-1.5">
-              <span className="sr-only">InstaMagic</span>
+              <span className="sr-only">instamagic</span>
               <h2 className="text-2xl font-bold text-gray-800">
-                ✨ InstaMagic
+                ✨ instamagic
               </h2>
             </a>
           </div>
