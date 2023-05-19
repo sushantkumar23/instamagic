@@ -1,6 +1,7 @@
 import "./globals.css"
 import Link from "next/link"
 import { Inter } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -83,7 +84,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="bg-white">
-          {children}{" "}
+          {children}
+          <Analytics />
           <footer>
             <div className="px-6 py-12 mx-auto max-w-7xl md:flex md:items-center md:justify-between lg:px-8">
               <div className="flex justify-center space-x-6 md:order-2">
