@@ -134,7 +134,7 @@ export default function Privacy() {
             including on our websites, mobile applications, and other online or
             offline offerings (collectively, the “Services”).
           </p>
-          <h3>Personal Information</h3>
+          <h3 className="font-bold">Personal Information</h3>
           <p>
             The information we collect may include your personal data, such as
             your name, contact information, IP addresses, product and service
@@ -142,7 +142,7 @@ export default function Privacy() {
             data about you at several different points, including but not
             limited to the following:
           </p>
-          <ul role="list">
+          <ul role="list" className="list-disc">
             <li>
               when we correspond with you as a customer or prospective customer;
             </li>
@@ -169,7 +169,9 @@ export default function Privacy() {
             Any content you provide on these channels will be considered
             “public”.
           </p>
-          <h3>Information Collected Automatically or From Others</h3>
+          <h3 className="font-bold">
+            Information Collected Automatically or From Others
+          </h3>
           <p>
             <strong>Automatic Data Collection.</strong> We may collect certain
             information automatically when you use the Services. This
@@ -207,7 +209,7 @@ export default function Privacy() {
             record certain pieces of information whenever you visit or interact
             with our Services.{" "}
           </p>
-          <ul role="list">
+          <ul role="list" className="list-disc">
             <li>
               <strong>Cookies.</strong> Cookies are small text files placed in
               visitors’ computer browsers to store their preferences. Most
@@ -266,12 +268,12 @@ export default function Privacy() {
             to us and to enhance our ability to provide you with information
             about our business, products, and Services.
           </p>
-          <h3>Our Use of your Personal Data</h3>
+          <h3 className="font-bold">Our Use of your Personal Data</h3>
           <p>
             Our Company may use information that we collect about you to: Fulfil
             our contract with you and provide you with our Services, such as:
           </p>
-          <ul>
+          <ul role="list" className="list-disc">
             <li>
               delivering the products and services that you have requested;
             </li>
@@ -300,7 +302,7 @@ export default function Privacy() {
             Analyze and improve our Services pursuant to our legitimate
             interest, such as:
           </p>
-          <ul>
+          <ul role="list" className="list-disc">
             <li>
               detecting security incidents, protecting against malicious,
               deceptive, fraudulent or illegal activity, and prosecuting those
@@ -324,7 +326,7 @@ export default function Privacy() {
             <li>enforcing our terms and conditions</li>
           </ul>
           <p>Provide you with additional content and Services, such as:</p>
-          <ul role="list">
+          <ul role="list" className="list-disc">
             <li>
               developing and display content and advertising tailored to your
               interests on our websites or mobile applications;
@@ -381,12 +383,14 @@ export default function Privacy() {
             them. For a list of our sub-processors, contact us as described
             below.
           </p>
-          <h3>Our Disclosure of your Personal Data to Third Parties</h3>
+          <h3 className="font-bold">
+            Our Disclosure of your Personal Data to Third Parties
+          </h3>
           <p>
             We may share your personal data with third parties only in the ways
             that are described in this Privacy Policy.
           </p>
-          <ul>
+          <ul role="list" className="list-disc">
             <li>
               <strong>Affiliates and Service Providers.</strong> we may provide
               your information to affiliated entities within our corporate
@@ -442,7 +446,9 @@ export default function Privacy() {
             using the unsubscribe and other disabling instructions in the given
             application.
           </p>
-          <h3>Our Security Measures to Protect your Personal Data</h3>
+          <h3 className="font-bold">
+            Our Security Measures to Protect your Personal Data
+          </h3>
           <p>
             Our Company uses industry-standard technologies when transferring
             and receiving data exchanged between our Company and other companies
@@ -454,7 +460,9 @@ export default function Privacy() {
             other sites, our Company is not responsible for the security
             practices or the content of such sites.
           </p>
-          <h3>Our Use of Automatic Collection Technologies</h3>
+          <h3 className="font-bold">
+            Our Use of Automatic Collection Technologies
+          </h3>
           <p>
             <strong>Automatic Collection Technologies.</strong> We, as well as
             third parties that provide content, advertising, or other
@@ -463,7 +471,7 @@ export default function Privacy() {
             through the Services. Our uses of these Technologies fall into the
             following general categories:
           </p>
-          <ul role="list">
+          <ul role="list" className="list-disc">
             <li>
               <strong>Operationally Necessary.</strong> This includes
               Technologies that allow you access to our Services, applications,
@@ -485,10 +493,10 @@ export default function Privacy() {
               preferences, interests, or past items viewed;
             </li>
             <li>
-              Advertising or Targeting Related. We may use first party or
-              third-party Technologies to deliver content, including ads
-              relevant to your interests, on our Services or on third-party
-              sites.
+              <strong>Advertising or Targeting Related.</strong> We may use
+              first party or third-party Technologies to deliver content,
+              including ads relevant to your interests, on our Services or on
+              third-party sites.
             </li>
           </ul>
           <p>
@@ -565,7 +573,7 @@ export default function Privacy() {
             more information about our use of APIs and SDKs, please contact us
             as set forth below.
           </p>
-          <h3>Limiting Use, Disclosure, Retention </h3>
+          <h3 className="font-bold">Limiting Use, Disclosure, Retention </h3>
           <p>
             Whenever applicable, our Company identifies the purposes for which
             the information is being collected before or at the time of
@@ -581,7 +589,9 @@ export default function Privacy() {
             personal data for as long as necessary to comply with our legal
             obligations, resolve disputes, and enforce our agreements.
           </p>
-          <h3>International Transfers of your Personal data </h3>
+          <h3 className="font-bold">
+            International Transfers of your Personal data{" "}
+          </h3>
           <p>
             We are a global company. Information about you may be stored and
             processed in the European Economic Area, the United States or any
@@ -592,13 +602,15 @@ export default function Privacy() {
             which are different, and potentially not as protective as the laws
             of your own country.
           </p>
-          <h3>Accuracy of Personal data</h3>
+          <h3 className="font-bold">Accuracy of Personal data</h3>
           <p>
             We do our best to ensure that the personal data we hold and use is
             accurate. We rely on the customers we do business with to disclose
             to us all relevant information and to inform us of any changes.
           </p>
-          <h3>Your Access to and Updating of your Personal data</h3>
+          <h3 className="font-bold">
+            Your Access to and Updating of your Personal data
+          </h3>
           <p>
             Reasonable access to your personal data may be provided upon request
             made to our Company at the contact information provided below. If
@@ -612,7 +624,7 @@ export default function Privacy() {
             information as part of the provision of products and services to
             you.
           </p>
-          <h3>Your Choices</h3>
+          <h3 className="font-bold">Your Choices</h3>
           <p>
             We offer those who provide personal data a means to choose how we
             use the information provided. Where you have consented to the
@@ -669,12 +681,12 @@ export default function Privacy() {
             advertising partners’ use of this information for interest-based
             advertising purposes.
           </p>
-          <h3>Your Privacy Rights</h3>
+          <h3 className="font-bold">Your Privacy Rights</h3>
           <p>
             Depending on where you reside, you may have the right to exercise
             additional rights available to you under applicable laws, including:
           </p>
-          <ul>
+          <ul role="list" className="list-disc">
             <li>
               <strong>Right of erasure.</strong> You may have a broader right to
               erasure of personal data that we hold about you. For example, if
@@ -713,7 +725,7 @@ export default function Privacy() {
             your privacy and security, we may take steps to verify your identity
             before complying with the request.
           </p>
-          <h3>Notice to End Users of Customers</h3>
+          <h3 className="font-bold">Notice to End Users of Customers</h3>
           <p>
             Most of our services are intended for use by organizations. Where
             the services are made available to you through an organization (e.g.
@@ -726,7 +738,7 @@ export default function Privacy() {
             different from this policy.
           </p>
           <p>Administrators may be able to:</p>
-          <ul>
+          <ul role="list" className="list-disc">
             <li>
               help you exercise the rights described in “Your Privacy Rights”
               Section (if applicable);
@@ -752,7 +764,7 @@ export default function Privacy() {
             Please contact your organization or refer to your administrator’s
             organizational policies for more information.
           </p>
-          <h3>Children’s Privacy</h3>
+          <h3 className="font-bold">Children&apos;s Privacy</h3>
           <p>
             Because of the nature of our business, our services are not designed
             to appeal to minors. We do not knowingly attempt to solicit or
@@ -764,7 +776,7 @@ export default function Privacy() {
             take steps to delete such information and terminate the child’s
             account.
           </p>
-          <h3>Changes to our Privacy Policy</h3>
+          <h3 className="font-bold">Changes to our Privacy Policy</h3>
           <p>
             Our Company may amend this Privacy Policy at any time by posting a
             new version. It is your responsibility to review this Privacy Policy
@@ -772,13 +784,16 @@ export default function Privacy() {
             and services represents your agreement with the then-current Privacy
             Policy.
           </p>
-          <h3>Contacting Us</h3>
+          <h3 className="font-bold">Contacting Us</h3>
           <blockquote>
             <p className="font-light">
-              <strong>Satria Technologies Private Limited</strong> <br />
+              <span className="font-bold">
+                Satria Technologies Private Limited
+              </span>{" "}
+              <br />
               House No. 944, Block C, Sushant Lok 1, Arjunnagar, <br />
               Gurgaon, Haryana, India, 122001 <br />
-              E-mail: contact@satria.ai
+              E-mail: <a href="mailto:contact@satria.ai">contact@satria.ai</a>
             </p>
           </blockquote>
         </div>
