@@ -51,7 +51,7 @@ export const metadata = {
     ],
     locale: "en_US",
   },
-  _foundr: "b3a9b4d4f4942647ab9e670d07013027",
+  _foundr: "e2e301b75b856898215ffd42b7da03bd",
   twitter: {
     card: "summary_large_image",
     title: "InstaMagic | AI-powered Instagram caption generator",
